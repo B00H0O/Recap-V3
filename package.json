@@ -1,0 +1,13 @@
+{
+  "name": "recap-v3",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "reCAPTCHA v3 token service - raw CDP + real Chrome + document interception.",
+  "scripts": {
+    "server": "node server.mjs",
+    "solve": "node solve.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.21.0"
+  }
+}

@@ -1,0 +1,13 @@
+# secrets / env
+.env
+
+# dependencies / build
+node_modules/
+dist/
+
+# browser profile data
+ct-profile/
+
+# logs
+*.log
+pool_ct.log
