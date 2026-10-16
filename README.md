@@ -5,8 +5,7 @@ each mint navigates to the target, the document request is intercepted in the br
 `grecaptcha.execute` returns the token.
 
 Runs as a 2captcha-style HTTP pool: send any sitekey + target, get back JSON -
-`{success, elapsed, token}`, a 0.9-score token for v3 and v3 Enterprise. Not an offline
-engine - every fleet needs a real Chrome.
+`{success, elapsed, token}`, a 0.9-score token for v3 and v3 Enterprise. 
 
 ## Mint a token
 
